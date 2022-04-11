@@ -10,25 +10,54 @@ function changeToDarkMode(){
     document.querySelector('input').style.backgroundColor='black'
     document.querySelector('button').style.backgroundColor='black'
     document.querySelector('button').style.color='lightpink'
-    document.querySelector('th').style.color='lightpink'
+    const nodeList = document.querySelectorAll('th');
+    for (i = 0; i <nodeList.length;i++){nodeList[i].style.color='lightpink'}
+    const nodeList1 = document.querySelectorAll('th');
+   for (i = 0; i <nodeList1.length;i++){nodeList1[i].style.backgroundColor='black'}
+   const nodeList2 = document.querySelectorAll('th');
+   for (i = 0; i <nodeList2.length;i++){nodeList2[i].style.borderColor='white'}
+   const nodeList3 = document.querySelectorAll('td');
+   for (i = 0; i <nodeList3.length;i++){nodeList3[i].style.color='lightpink'}
+   const nodeList4 = document.querySelectorAll('td');
+  for (i = 0; i <nodeList4.length;i++){nodeList4[i].style.backgroundColor='black'}
+  const nodeList5 = document.querySelectorAll('td');
+  for (i = 0; i <nodeList5.length;i++){nodeList5[i].style.borderColor='white'}
+  const nodeList6 = document.querySelectorAll('.unknownMaybe');
+  for (i = 0; i <nodeList6.length;i++){nodeList6[i].style.backgroundColor='yellow'}
+  const nodeList7 = document.querySelectorAll('.non-veg-item');
+  for (i = 0; i <nodeList7.length;i++){nodeList7[i].style.backgroundColor='red'}
     document.querySelector('button').style.borderColor='white'
     document.querySelector('input').style.borderColor='white'
 }
 
-// function changeToLightMode(){
-//     document.querySelector('body').style.backgroundColor ='white'
-//    document.querySelector('h1').style.color='lightblue'
-//    document.querySelector('label').style.color='lightblue'
-//    document.querySelector('h2').style.color='lightblue'
-//    document.querySelector('input').style.color='lightblue'
-//    document.querySelector('input').style.backgroundColor='white'
-//    document.querySelector('input').style.borderColor='black'
-//    document.querySelector('button').style.backgroundColor='white'
-//    document.querySelector('button').style.color='lightblue'
-//    document.querySelector('th').style.color='lightblue'
-//    document.querySelector('th').style.background='white'
-//    document.querySelector('button').style.borderColor='black'
-// }
+function changeToLightMode(){
+    document.querySelector('body').style.backgroundColor ='white'
+   document.querySelector('h1').style.color='lightblue'
+   document.querySelector('label').style.color='lightblue'
+   document.querySelector('h2').style.color='lightblue'
+   document.querySelector('input').style.color='lightblue'
+   document.querySelector('input').style.backgroundColor='white'
+   document.querySelector('input').style.borderColor='black'
+   document.querySelector('button').style.backgroundColor='white'
+   document.querySelector('button').style.color='lightblue'
+   const nodeList = document.querySelectorAll('th');
+   for (i = 0; i <nodeList.length;i++){nodeList[i].style.color='lightblue'}
+   const nodeList1 = document.querySelectorAll('th');
+   for (i = 0; i <nodeList1.length;i++){nodeList1[i].style.backgroundColor='white'}
+   const nodeList2 = document.querySelectorAll('th');
+   for (i = 0; i <nodeList2.length;i++){nodeList2[i].style.borderColor='black'}
+   const nodeList3 = document.querySelectorAll('td');
+   for (i = 0; i <nodeList3.length;i++){nodeList3[i].style.color='lightblue'}
+   const nodeList4 = document.querySelectorAll('td');
+   for (i = 0; i <nodeList4.length;i++){nodeList4[i].style.backgroundColor='white'}
+   const nodeList5 = document.querySelectorAll('td');
+   for (i = 0; i <nodeList5.length;i++){nodeList5[i].style.borderColor='black'}
+   const nodeList6 = document.querySelectorAll('.unknownMaybe');
+  for (i = 0; i <nodeList6.length;i++){nodeList6[i].style.backgroundColor='yellow'}
+  const nodeList7 = document.querySelectorAll('.non-veg-item');
+  for (i = 0; i <nodeList7.length;i++){nodeList7[i].style.backgroundColor='red'}
+   document.querySelector('button').style.borderColor='black'
+}
 
 function getFetch(){
     let inputVal = document.getElementById('barcode').value

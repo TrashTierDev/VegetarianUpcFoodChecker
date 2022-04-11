@@ -71,18 +71,6 @@ img{
 h2{
   margin-bottom: 0;
 }
-
-table{
-  margin: 20px auto;
-}
-
-table, th, tr{
-  border: 1px solid white;
-  background: black;
-  color: lightpink;
-  border-radius: 6px;
-}
-
 .non-veg-item{
   background-color: red;
   content: ❌;
@@ -92,6 +80,18 @@ table, th, tr{
   background-color: yellow;
   content:🤷;
 }
+
+table{
+  margin: 20px auto;
+}
+
+table, th, tr, td{
+  border: 1px solid white;
+  background: black;
+  color: lightpink;
+  border-radius: 6px;
+}
+
 
 #darkMode{
   background: black;
